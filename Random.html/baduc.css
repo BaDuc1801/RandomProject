@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: auto;
+    border: 0.5px solid black;
+    box-shadow: 0 0 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.play-imgs img{
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.play-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.play-button{
+    display: flex;
+    justify-content: end;
+    margin-right: 5px;
+}
+
+.play-button button{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(91, 196, 102);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.reset{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reset-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reset-button button{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(91, 196, 102);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+
+.rule{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.rule-text{
+    font-size: 20px;
+    font-weight: bold;
+    width: 565px;
+    margin-left: 15px;
+}
+
+.act-reset{
+    /* position: relative; */
+    padding: 15px;
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.act img{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.act-tom{
+    flex: 1;
+    border: 0.5px solid black;
+    padding: 20px;
+    position: relative;
+
+}
+
+.act-bau{
+    position: relative;
+    flex: 1;
+    border: 0.5px solid black;
+    padding: 20px;
+}
+
+.act-cua{
+    position: relative;
+    flex: 1;
+    border: 0.5px solid black;
+    padding: 20px;
+}
+
+.act-ca{
+    position: relative;
+    flex: 1;
+    border: 0.5px solid black;
+    padding: 20px;
+}
+
+.act-huou{
+    position: relative;
+    flex: 1;
+    border: 0.5px solid black;
+    padding: 20px;
+}
+
+.act-ga{
+    position: relative;
+    flex: 1;
+    border: 0.5px solid black;
+    padding: 20px;
+}
+
+.act-tom:hover{
+    transform: scale(1.2);
+}
+
+.act-bau:hover{
+    transform: scale(1.2);
+}
+
+.act-cua:hover{
+    transform: scale(1.2);
+}
+
+.act-ca:hover{
+    transform: scale(1.2);
+}
+
+.act-huou:hover{
+    transform: scale(1.2);
+}
+
+.act-ga:hover{
+    transform: scale(1.2);
+}
+
+.num{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* vô hiệu hóa nút */
+.disabled-button {
+    pointer-events: none;
+}
+
+.grey{
+    color: rgba(107, 101, 101, 0.749);
+}
